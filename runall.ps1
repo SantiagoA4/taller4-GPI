@@ -13,12 +13,10 @@ python data/processed.py
 
 # 3. Ejecutar análisis
 Write-Host "`nPaso 3: Ejecutando análisis..." -ForegroundColor Cyan
-# Agregar scripts de análisis aquí
-# python scripts/analysis.py
+python scripts/analysis.py
 
 # 4. Generar visualizaciones
 Write-Host "`nPaso 4: Generando visualizaciones..." -ForegroundColor Cyan
-# Agregar scripts de visualización aquí
-# python scripts/visualization.py
+python scripts/visualization.py
 
 Write-Host "`n=== Pipeline completado ===" -ForegroundColor Green
