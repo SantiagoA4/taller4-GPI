@@ -1,0 +1,16 @@
+name: taller4-gpi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - jupyter
+  - ipython
+  - pip
+  - pip:
+    - -r requirements.txt
